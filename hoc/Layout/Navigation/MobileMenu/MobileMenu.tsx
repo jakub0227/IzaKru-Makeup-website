@@ -44,7 +44,7 @@ export const MobileMenu: FC = () => {
   const router = useRouter();
   return (
     <>
-      <Backdrop open={open} />
+      <Backdrop open={open} transitionDuration={750} />
       <SpeedDial
         css={styles.root}
         ariaLabel="Mobile Menu"
@@ -58,6 +58,7 @@ export const MobileMenu: FC = () => {
         onOpen={handleOpen}
         open={open}
         direction="down"
+        transitionDuration={750}
       >
         <SpeedDialAction
           css={styles.navDial}
