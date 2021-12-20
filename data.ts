@@ -1,5 +1,5 @@
 import { Contact } from "./types/ContactType";
-import { InfoImageProps } from "./types/infoImage";
+import { InfoImageProps } from "./types/InfoImage";
 import { OfferCardType } from "./types/OfferCardType";
 
 export const dataOffers: OfferCardType[] = [
@@ -86,4 +86,3 @@ export const infoImages: InfoImageProps[] = [
     alt: "selfmakeup",
   },
 ];
-
